@@ -1,0 +1,2 @@
+# Student-background-management-system
+The project is used to centrally and digitally manage the information of teachers, classes and students. Different roles have different system functions and perform operations such as adding, deleting, modifying and checking in different areas. Homepage application visualization chart is clear to students every month, using componentization, modular way to improve the student search rate
