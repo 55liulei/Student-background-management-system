@@ -1,0 +1,46 @@
+const menuList = [
+    {
+        title:'首页',
+        index:'/home',
+        icon:'el-icon-house',
+        isPublic:true
+    },
+    {
+        title:'用户管理',
+        index:'/user',
+        icon:'el-icon-s-custom'
+    },
+    {
+        title:'角色管理',
+        index:'/role',
+        icon:'el-icon-tickets'
+    },
+    {
+        title:'学员',
+        index:'/students',
+        icon:'el-icon-s-management',
+        children:[
+            {
+                title:'学校管理',
+                index:'/school',
+                icon:'el-icon-school'
+            },
+            {
+                title:'专业管理',
+                index:'/major',
+                icon:'el-icon-reading'
+            },
+            {
+                title:'班级管理',
+                index:'/class',
+                icon:'el-icon-monitor'
+            },
+            {
+                title:'学生管理',
+                index:'/student',
+                icon:'el-icon-lollipop'
+            }
+        ]
+    }
+]
+export default menuList
